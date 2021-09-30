@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
 import List from './Components/List';
 import Account from './Components/Nchrys/Account';
@@ -9,14 +10,17 @@ function App() {
 
 
   return (
-    <div >
+    <BrowserRouter>
+    <div  >
       
     <Header />
     <List />
     <Account />
     <Last />
+  
 
     </div>
+    </BrowserRouter>
   );
 }
 

@@ -23,10 +23,9 @@ const Account = () => {
         <div className='talk'></div>
        
         </div>
-        <div className='talk'><h1></h1></div>
+        <div className='talk'><div></div></div>
         <div className='po'>
-        <FaRegFolderOpen className='ebuka'
-        /><h8>Open New Account </h8>
+        <FaRegFolderOpen className='ebuka' /><h8>Open New Account </h8>
         </div>
         
        

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Nchrys/List.css';
-import { FaChartLine, FaHandHolding,  FaIndustry, FaTools, FaUserAlt,  } from 'react-icons/fa'
+import { FaChartLine, FaHandHolding,  FaTools, FaUserAlt,  } from 'react-icons/fa'
 
 
 const List = () => {
