@@ -10,7 +10,7 @@
   float: left;
   border: 1px solid blue;
   padding: 25px;
-  padding-left: 261px;
+  padding-left: 241.7px;
   border-radius: 2.2px;
   color: blue;
   font-size: smaller;
@@ -22,6 +22,12 @@
   padding-left: 52px;
   }
 }
+@media (max-width:480px) {
+  .Header2 h2 {
+   padding: 10px;
+   padding-left: 31px;
+   }
+ }
 .Header2 :hover h2  {
   opacity: 1;
   transition: 1s;
@@ -42,6 +48,14 @@
     color: blue;
    }
  }
+ @media (max-width:480px) {
+  .Header2 .icons2 {
+    position: absolute;
+    left: 4%;
+    top: 44%;
+    color: blue;
+   }
+ }
 .Header2 .icons3 {
   position: absolute;
   left: 35%;
@@ -53,6 +67,14 @@
     position: absolute;
     left: 30%;
     top: 56.5%;
+    color: blue;
+   }
+ }
+ @media  (max-width:480px) {
+  .Header2 .icons3 {
+    position: absolute;
+    left: 30%;
+    top: 44%;
     color: blue;
    }
  }
@@ -70,6 +92,14 @@
     color: blue;
    }
  }
+ @media  (max-width:480px) {
+  .Header2 .icons4 {
+    position: absolute;
+    left: 52%;
+    top: 44.5%;
+    color: blue;
+   }
+ }
 .Header2 .icons5 {
   position: absolute;
   left: 83%;
@@ -81,6 +111,14 @@
     position: absolute;
     left: 83%;
     top: 57%;
+    color: blue;
+   }
+ }
+ @media  (max-width:480px) {
+  .Header2 .icons5 {
+    position: absolute;
+    left: 82.5%;
+    top: 44.3%;
     color: blue;
    }
  }
